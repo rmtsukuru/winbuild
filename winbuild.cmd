@@ -8,6 +8,7 @@ REM winget install -e --id OpenJS.NodeJS
 
 REM Download WinLibs mingw-64
 powershell wget https://github.com/brechtsanders/winlibs_mingw/releases/download/16.1.0posix-14.0.0-msvcrt-r2/winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64msvcrt-14.0.0-r2.zip -Outfile winlibs-mingw-w64.zip
+REM TODO unzip Winlibs and put it in the right install directory please!
 
 REM Install Chocolatey Windows Package Manager
 REM powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
